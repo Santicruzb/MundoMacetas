@@ -1,0 +1,30 @@
+/* NavBar.css */
+
+.navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #db0c0c;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+  
+    li {
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+  
