@@ -34,9 +34,11 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
 }
 
 .read-the-docs {
   color: #888;
 }
+
+@import url(https://fonts.google.com/noto/specimen/Noto+Serif?preview.text=Mundo%20Macetas);

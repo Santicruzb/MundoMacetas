@@ -1,19 +1,21 @@
 import './App.css'
-import Tarjetas from './Tarjetas/Tarjetas'
+import Body from "./Body/Body"
 import NavBar from './navbar/NavBaar'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
+import ItemListContainer from './ItemListContainer/ItemListContainer'
+import Macetas from './Tarjetas/Macetas'
+import Canteros from './Tarjetas/Canteros'
 
 function App() {
   return (
     <>
      <NavBar/>
      <Header/>
-     <Tarjetas/>
-     <Tarjetas/>
-     <Tarjetas/>
+     <ItemListContainer greeting = "Listado de productos" />
+     <Macetas/>
+     <Canteros/>
      <Footer/>
-
     </>
   )
 }
