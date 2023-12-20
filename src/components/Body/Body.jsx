@@ -1,4 +1,4 @@
-import Macetas from "../../common/Macetas";
+import Macetas from "../Tarjetas/Macetas";
 
 const Body = () => {
     return (
